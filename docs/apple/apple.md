@@ -1,0 +1,68 @@
+# Process for application deployment in the Apple App Store
+
+## 1. Add an App ID
+Description: name of the application
+Bundle ID: reverse-domain name style string
+App Services: + push notifications
+
+
+## 2. Add Certificates
+
+### 2.1 Create a CSR file
+To create a CSR file just [Follow this link](./csr.md).
+
+### 2.2 Create Organization Certificates
+To create the organization certificates just [Follow this link](./organization.md).
+
+### 2.3 Create Certificate "Apple Push Notification service SSL (Sandbox & Production)"
+Create and download the certificate.
+
+1. Select the App ID
+2. Upload the CRS file
+3. Download the certificate
+
+The name of the certificate is **'aps.cer'**
+The **push notification certificate** IS associated to the App ID.
+
+
+### 2.4 Create the "iOS Provisioning Profiles" for production
+Create and download the provisioning profile for production.
+
+1. Go to Provisioning Profiles, then select "Distribution" - "App Store".
+2. Select App ID.
+3. Select the distribution certificate.
+4. Enter a profile name.
+5. Download the provisioning profile file.
+
+
+### 2.5 Create the "iOS Provisioning Profiles" for development
+Create and download the provisioning profile for development.
+
+1. Go to Provisioning Profiles, then select "Development" - "iOS App Development".
+2. Select App ID.
+3. Select the distribution certificate.
+4. Select devices.
+5. Enter a profile name.
+6. Download the provisioning profile file.
+
+
+### 2.6 Convert the "App Store and Ad Hoc" ('ios_distribution.cer') certificate to .p12 extension
+Generating the p12 certificate.
+
+1. Open the **Keychain Access** application.
+2. If the certificate is not already added to Keychain, select File > Import. 
+Then navigate to the certificate file (the .cer file).
+3. Select the Keys category in Keychain Access.
+4. Select the private key associated with your iPhone Development Certificate. The private key is identified by the iPhone Developer: public certificate that is paired with it.
+5. Control-click the iPhone Developer certificate and select, Export "iPhone Developer: Name...".
+
+
+### 2.7 Convert the "Push Notifications" ('aps.cer') certificate to .pem extension
+
+1. Launch Keychain Access.
+2. Import aps.cer certificate (File - Import Items).
+3. Go to "Certificates".
+3. Find the certificate "Apple Push Services: app_bundle". 
+4. Ctl-click - export "Apple Push ...". 
+5. Save as .p12. If .p12 option is disabled, check that you are in the "Certificates" option in the menu.
+6. openssl pkcs12 -in aps.p12 -out aps.pem -nodes -clcerts
