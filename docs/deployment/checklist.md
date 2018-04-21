@@ -1,11 +1,11 @@
 # Deploy your application
 
 # Android Certificate
-1. Create Android certificate following [this instructive](./docs/android/android.md).
+1. Create Android certificate following [this instructive](./android/android.md).
 2. Upload Android certificate to https://build.phonegap.com
 
 # iOS process
-2. Create Android certificates following [this instructive](./docs/apple/apple.md).
+2. Create Android certificates following [this instructive](./apple/apple.md).
 2. Upload iOS certificate to https://build.phonegap.com
 
 # Create and configure Facebook application
