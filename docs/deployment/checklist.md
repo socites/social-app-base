@@ -59,3 +59,6 @@ https://www.npmjs.com/package/splashicon-generator
 2. Site certificate
 3. Web warning customized
 4. Check Back End API version
+
+# Configure Mercadopago if required
+Configure Mercadopago by following [this instructive](./mercadopago.md).
