@@ -7,4 +7,8 @@
 4. Set authorized Javascript Origins if the application has a different domain to be set. Example: dev.domain.com
 5. Set read and write scopes.
 
-##
+## Get the public key
+Get the public key for production and sandbox by accessing https://www.mercadopago.com/mla/account/credentials?type=basic
+
+## Configure the backend
+1. Set application_id, secret_key and public key
