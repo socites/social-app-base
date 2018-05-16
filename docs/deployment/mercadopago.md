@@ -12,3 +12,7 @@ Get the public key for production and sandbox by accessing https://www.mercadopa
 
 ## Configure the backend
 1. Set application_id, secret_key and public key
+
+## Go to production
+1. Enter https://www.mercadopago.com/mla/account/credentials?type=basic
+2. Click the link "Quiero ir a producción"
