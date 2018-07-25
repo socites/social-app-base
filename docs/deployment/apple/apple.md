@@ -7,12 +7,14 @@
 4. Set the field **description** with the name of your application.
 5. Set the Bundle ID: reverse-domain name style string. Example: '**com.example.application**'.
 6. Set the app services: **+ push notifications**.
+7. Confirm the form by clicking the **Register** button.
 
+Now you have set the **App ID** for your application.
 
 ## 2. Add Certificates
 
 ### 2.1 Create a CSR file
-To create a CSR file just [Follow this link](./csr.md).
+To create a CSR file [Follow this link](./csr.md).
 
 ### 2.2 Create Organization Certificates
 To create the organization certificates just [Follow this link](./organization.md).
@@ -20,9 +22,9 @@ To create the organization certificates just [Follow this link](./organization.m
 ### 2.3 Create Certificate "Apple Push Notification service SSL (Sandbox & Production)"
 Create and download the certificate.
 
-1. Select the App ID
-2. Upload the CRS file
-3. Download the certificate
+1. Select the App ID.
+2. Upload the CRS file.
+3. Download the certificate.
 
 The name of the certificate is **'aps.cer'**
 The **push notification certificate** IS associated to the App ID.
