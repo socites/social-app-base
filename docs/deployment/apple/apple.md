@@ -4,9 +4,9 @@
 1. Enter to https://developer.apple.com/account/
 2. Go to **Certificates, Identifiers & Profiles**.
 3. Go to **App IDs**, it is an item under **Identifiers**.
-Description: name of the application
-Bundle ID: reverse-domain name style string
-App Services: + push notifications
+4. Set the field **description** with the name of your application.
+5. Set the Bundle ID: reverse-domain name style string.
+6. Set the app services: **+ push notifications**.
 
 
 ## 2. Add Certificates
