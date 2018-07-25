@@ -6,7 +6,7 @@
 
 # iOS process
 2. Create iOS certificates following [this instructive](./apple/apple.md).
-2. Upload iOS certificate to https://build.phonegap.com
+2. Upload the iOS certificates and provisioning profiles to https://build.phonegap.com
 
 # Create and configure Facebook application
 1. Enter https://developers.facebook.com/
