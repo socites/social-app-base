@@ -15,6 +15,7 @@ Now you have set the **App ID** for your application.
 
 ### 2.1 Create a CSR file
 To create a CSR file [Follow this link](./csr.md).
+**Note**: Only generate one CSR file that represents the company that is developing the application.
 
 ### 2.2 Create Organization Certificates
 To create the organization certificates just [Follow this link](./organization.md).
