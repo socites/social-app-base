@@ -11,8 +11,8 @@
 
 Now you have set the **App ID** for your application.
 
-## 2. Generate the certificates
-To create the development and prodcution certificates for your application, follow [this instructive](./certificates/certificates.md).
+## 2. Generate the certificates and Provisioning Profiles
+To create the development and prodcution certificates and provisioning profiles for your application, follow [this instructive](./certificates/certificates.md).
 
 ### 2.2 Create Certificate "Apple Push Notification service SSL (Sandbox & Production)"
 Create and download the certificate:
