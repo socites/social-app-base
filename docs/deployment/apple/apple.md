@@ -1,6 +1,9 @@
 # Process for application deployment in the Apple App Store
 
 ## 1. Add an App ID
+1. Enter to https://developer.apple.com/account/
+2. Go to **Certificates, Identifiers & Profiles**.
+3. Go to **App IDs**, it is an item under **Identifiers**.
 Description: name of the application
 Bundle ID: reverse-domain name style string
 App Services: + push notifications
