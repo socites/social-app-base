@@ -30,6 +30,7 @@ The **push notification certificate** IS associated to the App ID.
 Generating the p12 certificate required for **Phonegap Build**.
 
 [Follow this instructive](http://docs.phonegap.com/phonegap-build/signing/ios/)
+[For a more detailed information](https://iandevlin.com/blog/2012/11/phonegap/building-an-ios-signing-key-for-phonegap-in-windows/)
 
 For iOS Users:
 1. Open the **Keychain Access** application.
