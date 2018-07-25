@@ -23,9 +23,10 @@ To create the organization certificates [Follow this link](./organization.md).
 ### 2.3 Create Certificate "Apple Push Notification service SSL (Sandbox & Production)"
 Create and download the certificate:
 1. Enter to https://developer.apple.com/account/
-2. Select the App ID.
-3. Upload the CRS file.
-4. Download the certificate.
+2. Go to **Certificates, Identifiers & Profiles**.
+3. Select the App ID.
+4. Upload the CRS file.
+5. Download the certificate.
 
 The name of the certificate is **'aps.cer'**
 The **push notification certificate** IS associated to the App ID.
@@ -34,22 +35,24 @@ The **push notification certificate** IS associated to the App ID.
 ### 2.4 Create the "iOS Provisioning Profiles" for production
 Create and download the provisioning profile for production.
 
-1. Go to Provisioning Profiles, then select "Distribution" - "App Store".
-2. Select App ID.
-3. Select the distribution certificate.
-4. Enter a profile name.
-5. Download the provisioning profile file.
+1. Enter to https://developer.apple.com/account/
+2. Go to **Provisioning Profiles**, then select "Distribution" - "App Store".
+3. Select App ID.
+4. Select the distribution certificate.
+5. Enter a profile name.
+6. Download the provisioning profile file.
 
 
 ### 2.5 Create the "iOS Provisioning Profiles" for development
 Create and download the provisioning profile for development.
 
-1. Go to Provisioning Profiles, then select "Development" - "iOS App Development".
-2. Select App ID.
-3. Select the distribution certificate.
-4. Select devices.
-5. Enter a profile name.
-6. Download the provisioning profile file.
+1. Enter to https://developer.apple.com/account/
+2. Go to Provisioning Profiles, then select "Development" - "iOS App Development".
+3. Select App ID.
+4. Select the distribution certificate.
+5. Select devices.
+6. Enter a profile name.
+7. Download the provisioning profile file.
 
 
 ### 2.6 Convert the "App Store and Ad Hoc" ('ios_distribution.cer') certificate to .p12 extension
