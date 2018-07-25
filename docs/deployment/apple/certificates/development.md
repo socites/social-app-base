@@ -22,7 +22,7 @@ It IS NOT associated with the App ID.
 1. Enter to https://developer.apple.com/account/
 2. Go to **Devices**.
 3. Click on the plus button at the right top of the **iOS Certificates** panel.
-4. Register the UUID of the devices where the application will be tested.
+4. Register the UDID of the devices where the application will be tested.
 
 ## 3. Create the "iOS Provisioning Profiles" for development
 Create and download the provisioning profile for development.
