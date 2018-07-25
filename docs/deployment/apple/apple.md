@@ -18,14 +18,14 @@ To create a CSR file [Follow this link](./csr.md).
 **Note**: Only generate one CSR file that represents the company that is developing the application.
 
 ### 2.2 Create Organization Certificates
-To create the organization certificates just [Follow this link](./organization.md).
+To create the organization certificates [Follow this link](./organization.md).
 
 ### 2.3 Create Certificate "Apple Push Notification service SSL (Sandbox & Production)"
-Create and download the certificate.
-
-1. Select the App ID.
-2. Upload the CRS file.
-3. Download the certificate.
+Create and download the certificate:
+1. Enter to https://developer.apple.com/account/
+2. Select the App ID.
+3. Upload the CRS file.
+4. Download the certificate.
 
 The name of the certificate is **'aps.cer'**
 The **push notification certificate** IS associated to the App ID.
