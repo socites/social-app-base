@@ -47,6 +47,12 @@ https://www.npmjs.com/package/splashicon-generator
 3. Configure facebook plugin cordova-plugin-facebook4
 4. Configure push notifications plugin phonegap-plugin-push
 
+# Publish application - Android
+1. https://play.google.com/apps/publish
+
+# Publish application - iOS
+1. https://itunesconnect.apple.com
+
 # Publish application - web version
 1. Compile application
 2. Create bitbucket repository for web, android and iOS
