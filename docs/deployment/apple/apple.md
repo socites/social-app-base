@@ -29,6 +29,9 @@ The **push notification certificate** IS associated to the App ID.
 ### 2.6 Convert the .cer certificates to .p12 extension
 Generating the p12 certificate required for **Phonegap Build**.
 
+[Follow this instructive](http://docs.phonegap.com/phonegap-build/signing/ios/)
+
+For iOS Users:
 1. Open the **Keychain Access** application.
 2. If the certificate is not already added to Keychain, select File > Import. 
 Then navigate to the certificate file (the .cer file).
