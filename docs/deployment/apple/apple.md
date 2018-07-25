@@ -24,9 +24,10 @@ To create the organization certificates [Follow this link](./organization.md).
 Create and download the certificate:
 1. Enter to https://developer.apple.com/account/
 2. Go to **Certificates, Identifiers & Profiles**.
-3. Select the App ID.
-4. Upload the CRS file.
-5. Download the certificate.
+3. Click on the plus button at the right top of the panel.
+4. Select the App ID.
+5. Upload the CRS file.
+6. Download the certificate.
 
 The name of the certificate is **'aps.cer'**
 The **push notification certificate** IS associated to the App ID.
@@ -37,10 +38,11 @@ Create and download the provisioning profile for production.
 
 1. Enter to https://developer.apple.com/account/
 2. Go to **Provisioning Profiles**, then select "Distribution" - "App Store".
-3. Select App ID.
-4. Select the distribution certificate.
-5. Enter a profile name.
-6. Download the provisioning profile file.
+3. Click on the plus button at the right top of the panel.
+4. Select App ID.
+5. Select the distribution certificate.
+6. Enter a profile name.
+7. Download the provisioning profile file.
 
 
 ### 2.5 Create the "iOS Provisioning Profiles" for development
@@ -48,11 +50,12 @@ Create and download the provisioning profile for development.
 
 1. Enter to https://developer.apple.com/account/
 2. Go to Provisioning Profiles, then select "Development" - "iOS App Development".
-3. Select App ID.
-4. Select the distribution certificate.
-5. Select devices.
-6. Enter a profile name.
-7. Download the provisioning profile file.
+3. Click on the plus button at the right top of the panel.
+4. Select App ID.
+5. Select the distribution certificate.
+6. Select devices.
+7. Enter a profile name.
+8. Download the provisioning profile file.
 
 
 ### 2.6 Convert the "App Store and Ad Hoc" ('ios_distribution.cer') certificate to .p12 extension
