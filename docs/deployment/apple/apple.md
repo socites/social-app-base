@@ -49,7 +49,7 @@ Create and download the provisioning profile for production.
 Create and download the provisioning profile for development.
 
 1. Enter to https://developer.apple.com/account/
-2. Go to Provisioning Profiles, then select "Development" - "iOS App Development".
+2. Go to **Provisioning Profiles**, then select "Development" - "iOS App Development".
 3. Click on the plus button at the right top of the panel.
 4. Select App ID.
 5. Select the distribution certificate.
