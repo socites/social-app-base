@@ -2,7 +2,7 @@
 
 # Android Certificate
 1. Create Android certificate following [this instructive](./android/android.md).
-2. Upload Android certificate to https://build.phonegap.com
+2. Upload Android certificate to https://build.phonegap.com.
 
 # iOS process
 2. Create iOS certificates following [this instructive](./apple/apple.md).
